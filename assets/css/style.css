@@ -215,3 +215,103 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  /* about */
+
+  .main-section {
+    margin-left: 30px;
+    width: 65%;
+  }
+
+  #logo {
+    margin-left: 30px;  
+  }
+
+  /* portfolio */
+
+  .work {
+    width: 350px;
+  }
+
+  /* contact */
+  
+  #contact-form li {
+    list-style: none;
+    margin-left:-40px;
+  }  
+
+}
+
+@media screen and (max-width: 768px) {
+  /* about */
+
+  .main-section {
+    margin-left: 15px;
+    width: 698px;
+  }
+
+  nav {
+    float:left;
+    margin-left: 185px;
+  }
+
+  #logo {
+    margin-left: 15px;  
+  }
+
+  /* portfolio */
+
+  .work {
+    width: 298px;
+  }
+
+  /* contact */
+  
+  #contact-form li {
+    list-style: none;
+    margin-left:-40px;
+  }  
+
+}
+
+@media screen and (max-width: 640px) {
+  /* about */
+
+  .main-section {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 580px;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  nav {
+    float:left;
+    text-align: center;
+    margin-left: 150px;    
+  }
+  
+  #logo {
+    height: 80px;
+    width: 100%;
+    margin-left: 0px; 
+    padding-left: 0px; 
+  }
+
+  /* portfolio */
+
+  .work {
+    width: 520px;
+  }
+
+  /* contact */
+  
+  #contact-form li {
+    list-style: none;
+    margin-left:-40px;
+  }  
+
+}
