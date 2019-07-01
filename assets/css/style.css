@@ -277,9 +277,15 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
   /* about */
-
+  #masthead {
+    position: static;
+    z-index: 0;
+    margin-bottom: 0px;
+  }  
+  }
   .main-section {
-    margin-top: 30px;
+    color:red;
+    margin-top: -100px;
     margin-left: 10px;
     width: 580px;
   }
