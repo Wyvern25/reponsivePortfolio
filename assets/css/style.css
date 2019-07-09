@@ -221,7 +221,7 @@ input[type=submit] {
 
   .main-section {
     margin-left: 30px;
-    width: 65%;
+    width: 68%;
   }
 
   #logo {
@@ -231,7 +231,7 @@ input[type=submit] {
   /* portfolio */
 
   .work {
-    width: 350px;
+    width: 45%;
   }
 
   /* contact */
@@ -252,8 +252,8 @@ input[type=submit] {
   }
 
   nav {
-    float:left;
-    margin-left: 185px;
+    float:right;
+    margin-right: 20px;
   }
 
   #logo {
@@ -263,7 +263,7 @@ input[type=submit] {
   /* portfolio */
 
   .work {
-    width: 298px;
+    width: 46%;
   }
 
   /* contact */
@@ -282,7 +282,7 @@ input[type=submit] {
     z-index: 0;
     margin-bottom: 0px;
   }  
-  }
+  
   .main-section {
     margin-top: -100px;
     margin-left: 10px;
@@ -296,7 +296,7 @@ input[type=submit] {
   nav {
     float:left;
     text-align: center;
-    margin-left: 150px;    
+    margin-left: 24%;     
   }
   
   #logo {
